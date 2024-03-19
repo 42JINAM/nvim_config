@@ -11,6 +11,11 @@ return {
     },
   },
 
+  {
+  "turbio/bracey.vim",
+  cmd = {"Bracey", "BracyStop", "BraceyReload", "BraceyEval"},
+  build = "npm install --prefix server",
+  },
   -- autocomplete
   ["hrsh7th/cmp-nvim-lua"] = { after = "cmp_luasnip" },
 
