@@ -17,3 +17,10 @@ end
 
 require "lazy_setup"
 require "polish"
+
+-- ~/.config/nvim/init.lua
+
+-- tabconfig 설정 불러오기
+
+require("tabconfig")
+-- 나머지 설정
